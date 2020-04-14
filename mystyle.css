@@ -1,0 +1,91 @@
+  body {
+    padding-left: 1em;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif, Verdana;
+    color: black;
+    background-color: #654321;}
+  .titlehead  {
+    background-color: #fdb81e;
+  }
+  table  td {
+    vertical-align: top;
+  }
+  h2.titlehead  {
+    font-size: large; 
+    font-family: Arial, Helvetica, sans-serif, Verdana;
+    font-style: italic;
+    color: black;
+    text-align: center;}
+
+  h3.titlehead {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif, Verdana;
+    font-weight: bold;
+    color: black;
+    text-align: center;}
+
+  .titlehead a:link {
+    color: black;
+    font-weight: bold;
+  }
+
+  .titlehead a:visited {
+    color: purple;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif, Verdana;
+    font-weight: bold;
+    color: black;
+    text-align: left;}
+
+  .navbar  {
+    background-color: #fdb81e;
+    font-family: Arial, Helvetica, sans-serif, Verdana;
+    font-size: 16px;
+  } 
+  ul.navbar {
+    color: black;
+  }
+
+  ul.navbar a:link {
+    font-weight: 16px;
+    color: black;
+  }
+
+  ul.navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  ul.navbar a:visited {
+    color: purple;
+  }
+
+  a:link {
+    color: black }
+  a:visited {
+    color: purple }
+  a:hover {
+    background-color: #fdb81e;
+    color: black;  
+  }
+
+  .maintxt {
+    background-color: #f8f8f8;
+  }
+
+  .bottombar  {
+    font-family: Arial, Helvetica, sans-serif, Verdana;
+    background-color: #fdb81e;
+    color: black;
+    font-size: 16px; 
+  }
+  .bottombar a:link {
+    color: black;
+  }
+
+  .bottombar a:visited {
+    color: purple;
+  } 
