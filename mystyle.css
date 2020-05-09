@@ -38,7 +38,7 @@
     font-family: Arial, Helvetica, sans-serif, Verdana;
     font-weight: bold;
     color: black;
-    text-align: left;}
+    text-align: center;}
 
   .navbar  {
     background-color: #fdb81e;
@@ -68,7 +68,7 @@
   a:visited {
     color: purple }
   a:hover {
-    background-color: #fdb81e;
+    background-color: white;
     color: black;  
   }
 
@@ -89,3 +89,79 @@
   .bottombar a:visited {
     color: purple;
   } 
+
+  nav ul a {
+    padding-top:10px;
+    text-align: left;
+  }
+
+  /* Style the header 
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+*/
+
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #fdb81e;
+  color: black;  
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #fdb81e;
+    color: black;  
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  font-size: 10px;
+  background-color: #494843;
+  padding: 1em;
+  text-align: left;
+  color: white;
+}
+
+.vl {
+  border-left: 6px solid #654321;
+  height: 220px;
+  position: absolute;
+  left: 450px;
+  margin-left: -3px;
+  top: 310px;
+}
+.inline-block {
+  display: inline-block;
+  text-align: center;
+  margin-right: 620px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
