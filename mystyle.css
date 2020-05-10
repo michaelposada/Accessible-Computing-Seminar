@@ -1,3 +1,9 @@
+header {
+  background-image: url("logo.jpg");
+  background-repeat:no-repeat;
+  background-position: fixed;
+  background-size:cover;
+}
   body {
     padding-left: 1em;
     font-size: 16px;
@@ -11,11 +17,17 @@
     vertical-align: top;
   }
   h2.titlehead  {
-    font-size: large; 
+    font-size: medium; 
     font-family: Arial, Helvetica, sans-serif, Verdana;
     font-style: italic;
     color: black;
     text-align: center;}
+
+    h2
+    {
+      font-size: medium;
+    }
+
 
   h3.titlehead {
     font-size: 16px;
@@ -30,7 +42,9 @@
   }
 
   .titlehead a:visited {
-    color: purple;
+    color: #205493
+
+    ;
     font-weight: bold;
   }
   h3 {
@@ -60,20 +74,22 @@
   }
 
   ul.navbar a:visited {
-    color: purple;
+    color: #205493
   }
 
   a:link {
     color: black }
   a:visited {
-    color: purple }
+    color: #205493
+
+  }
   a:hover {
     background-color: white;
     color: black;  
   }
 
   .maintxt {
-    background-color: #f8f8f8;
+    background-color: #fdb81e;
   }
 
   .bottombar  {
@@ -87,24 +103,14 @@
   }
 
   .bottombar a:visited {
-    color: purple;
+    color: #5d89ba
+    ;
   } 
 
   nav ul a {
     padding-top:10px;
     text-align: left;
   }
-
-  /* Style the header 
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-*/
-
 
 /* Container for flexboxes */
 section {
@@ -149,11 +155,11 @@ footer {
 
 .vl {
   border-left: 6px solid #654321;
-  height: 220px;
+  height: 250px;
   position: absolute;
   left: 450px;
   margin-left: -3px;
-  top: 310px;
+  top: 178px;
 }
 .inline-block {
   display: inline-block;
@@ -161,7 +167,8 @@ footer {
   margin-right: 620px;
 }
 
-img{
-  width: 100px;
-  height: 100px;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
